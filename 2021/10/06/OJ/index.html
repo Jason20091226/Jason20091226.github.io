@@ -7,11 +7,15 @@
   
   <title>Jason</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="有关oj运行机制的一点解释（持续更新。。。）很久以前就想专门写篇有关oj原理的博客了因为之前对电脑判题的原理有过质疑于是在极长的一段时间内妄想在网络上找到相关的解答后来在问老师问同学问博主问度娘一点一点解惑慢慢总结后大致覆盖了我目前的一些疑惑 首先是有关在线评测系统运行原理及各种报错常因其实不难想象，电脑只是处理数据验证最后答案与期望答案是否相同，大部分的思考都由人来完成 oj一般有一组input">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Jason">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://example.com/2021/10/06/OJ/index.html">
 <meta property="og:site_name" content="Jason">
+<meta property="og:description" content="有关oj运行机制的一点解释（持续更新。。。）很久以前就想专门写篇有关oj原理的博客了因为之前对电脑判题的原理有过质疑于是在极长的一段时间内妄想在网络上找到相关的解答后来在问老师问同学问博主问度娘一点一点解惑慢慢总结后大致覆盖了我目前的一些疑惑 首先是有关在线评测系统运行原理及各种报错常因其实不难想象，电脑只是处理数据验证最后答案与期望答案是否相同，大部分的思考都由人来完成 oj一般有一组input">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-10-06T11:14:17.539Z">
+<meta property="article:modified_time" content="2021-10-06T11:23:17.222Z">
 <meta property="article:author" content="Jason">
 <meta name="twitter:card" content="summary">
   
@@ -62,9 +66,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-OJ" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-OJ" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2021/10/06/OJ/" class="article-date">
   <time datetime="2021-10-06T11:14:17.539Z" itemprop="datePublished">2021-10-06</time>
@@ -151,60 +153,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2021/10/05/hello-world/" class="article-date">
-  <time datetime="2021-10-05T05:03:11.976Z" itemprop="datePublished">2021-10-05</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/10/05/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2021/10/05/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2021/10/05/hello-world/" data-id="ckudmc5r10000ucvo3q5470j8" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-
 
 </section>
         
