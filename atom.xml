@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-06T11:44:15.348Z</updated>
+  <updated>2021-10-07T12:52:14.557Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从零开始建一个网站</title>
+    <link href="http://example.com/2021/10/07/%E7%BD%91%E7%AB%99/"/>
+    <id>http://example.com/2021/10/07/%E7%BD%91%E7%AB%99/</id>
+    <published>2021-10-07T12:39:57.357Z</published>
+    <updated>2021-10-07T12:52:14.557Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨天才建好；今天就发…….</p><p>我也是醉了（；´д｀）ゞ</p><p>容我三思</p><p>我做出了一个决定！</p><p>#下次再发！！</p><p>zhimaoi博客：<a href="http://www.zhimaoi.cn/blogof/jason">戳这里</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;昨天才建好；今天就发…….&lt;/p&gt;
+&lt;p&gt;我也是醉了（；´д｀）ゞ&lt;/p&gt;
+&lt;p&gt;容我三思&lt;/p&gt;
+&lt;p&gt;我做出了一个决定！&lt;/p&gt;
+&lt;p&gt;#下次再发！！&lt;/p&gt;
+&lt;p&gt;zhimaoi博客：&lt;a href=&quot;http://www.zhimaoi.cn/blogof/jaso</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>有关oj运行机制的一点解释（持续更新。。。）</title>
