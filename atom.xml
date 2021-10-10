@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Jason&#39;s Home</title>
+  <title>Jason·周的小站</title>
   
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-09T13:17:22.915Z</updated>
+  <updated>2021-10-09T14:18:52.021Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>Jason Zhou</name>
+    <name>Jason·周的小站</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用代码关闭极域电子教室</title>
+    <link href="http://example.com/2021/10/09/%E5%86%8D%E8%A7%81%E6%9E%81%E5%9F%9F/"/>
+    <id>http://example.com/2021/10/09/%E5%86%8D%E8%A7%81%E6%9E%81%E5%9F%9F/</id>
+    <published>2021-10-09T13:59:12.016Z</published>
+    <updated>2021-10-09T14:18:52.021Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>极域电子教室的困扰影响着很多小学僧</strong><br>下面我们一步解决！<br><strong>首先你得会用</strong> <em>cmd</em><br>按下一组快捷键：<br><code>win+r</code><br>在对话框里<br><img src="https://i.loli.net/2021/10/09/dsNPnGWjVT7XgQq.png" alt="对话框"><br>输入：cmd<br><strong>按回车</strong><br>弹出这样的窗口：<br><img src="https://i.loli.net/2021/10/09/SHwXqKrA5OMcuBh.png" alt="cmd"><br>里面输入：</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">taskkill -f -im studentmain.exe</span><br></pre></td></tr></table></figure><p>这样就好了！！！<br>原理是：<br>用taskkill来结束<br>极域<strong>学生端</strong><br>的<code>.exe</code>程序<br>好好学习吧！<br>zhimaoi博客：<a href="http://www.zhimaoi.cn/blogof/jason">戳这里</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;极域电子教室的困扰影响着很多小学僧&lt;/strong&gt;&lt;br&gt;下面我们一步解决！&lt;br&gt;&lt;strong&gt;首先你得会用&lt;/strong&gt; &lt;em&gt;cmd&lt;/em&gt;&lt;br&gt;按下一组快捷键：&lt;br&gt;&lt;code&gt;win+r&lt;/code&gt;&lt;br&gt;在对话框里&lt;br&gt;&lt;im</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>MarkDown基本语法阐述</title>
