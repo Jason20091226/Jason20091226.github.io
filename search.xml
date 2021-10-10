@@ -4,11 +4,24 @@
   
     
     <entry>
+      <title>如何在微软官网获取Windows11镜像</title>
+      <link href="/2021/10/10/win11/"/>
+      <url>/2021/10/10/win11/</url>
+      
+        <content type="html"><![CDATA[<p>示例视频：<a href="https://wus-streaming-video-rt-microsoft-com.akamaized.net/d271ec57-5cdd-465e-97ec-bdc039372c50/7cc0686b-1d39-495e-b0be-b5554d944fe6.mp4">戳这里</a></p><p><del>准备Windows10养老</del>（doge）</p><p>下载地址：<a href="https://www.microsoft.com/zh-cn/software-download/windows11">戳这里</a></p><p>如果你是Windows10用户<br>建议你下载<strong>电脑状况检查应用</strong><br>下载地址：<a href="https://aka.ms/GetPCHealthCheckApp">戳这里</a></p><p><img src="https://i.loli.net/2021/10/10/bjGmKEBzRdXrH79.png" alt="下载Windows11"></p><p>点：<strong>立即检查</strong></p><p>跳出这张图片就说明可以安装</p><p><img src="https://i.loli.net/2021/10/10/xR2Jwr9OPS3IdLQ.png" alt="成功"></p><p>有兴趣的小伙伴可以试试</p><p><del>我不安装</del></p><p>zhimaoi<a href="http://www.zhimaoi.cn/blogof/jason">戳这里</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>用代码关闭极域电子教室</title>
       <link href="/2021/10/09/%E5%86%8D%E8%A7%81%E6%9E%81%E5%9F%9F/"/>
       <url>/2021/10/09/%E5%86%8D%E8%A7%81%E6%9E%81%E5%9F%9F/</url>
       
-        <content type="html"><![CDATA[<p><strong>极域电子教室的困扰影响着很多小学僧</strong><br>下面我们一步解决！<br><strong>首先你得会用</strong> <em>cmd</em><br>按下一组快捷键：<br><code>win+r</code><br>在对话框里<br><img src="https://i.loli.net/2021/10/09/dsNPnGWjVT7XgQq.png" alt="对话框"><br>输入：cmd<br><strong>按回车</strong><br>弹出这样的窗口：<br><img src="https://i.loli.net/2021/10/09/SHwXqKrA5OMcuBh.png" alt="cmd"><br>里面输入：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">taskkill -f -im studentmain.exe</span><br></pre></td></tr></table></figure><p>这样就好了！！！<br>原理是：<br>用taskkill来结束<br>极域<strong>学生端</strong><br>的<code>.exe</code>程序<br>好好学习吧！<br>zhimaoi博客：<a href="http://www.zhimaoi.cn/blogof/jason">戳这里</a></p>]]></content>
+        <content type="html"><![CDATA[<p><del>极域电子教室的困扰影响着很多小学僧</del><br>下面我们一步解决！<br><strong>首先你得会用</strong> <em>cmd</em><br>按下一组快捷键：<br><code>win+r</code><br>在对话框里<br><img src="https://i.loli.net/2021/10/09/dsNPnGWjVT7XgQq.png" alt="对话框"><br>输入：cmd<br><strong>按回车</strong><br>弹出这样的窗口：<br><img src="https://i.loli.net/2021/10/09/SHwXqKrA5OMcuBh.png" alt="cmd"><br>里面输入：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">taskkill -f -im studentmain.exe</span><br></pre></td></tr></table></figure><p>这样就好了！！！<br>原理是：<br>用taskkill来结束<br>极域<strong>学生端</strong><br>的<code>.exe</code>程序<br>好好学习吧！<br>zhimaoi博客：<a href="http://www.zhimaoi.cn/blogof/jason">戳这里</a></p>]]></content>
       
       
       
