@@ -95,6 +95,13 @@
   </url>
   
   <url>
+    <loc>https://jason20091226.github.io/tags/%E5%AD%A6%E6%9C%AF/</loc>
+    <lastmod>2021-10-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jason20091226.github.io/tags/%E6%A2%97/</loc>
     <lastmod>2021-10-28</lastmod>
     <changefreq>daily</changefreq>
@@ -103,13 +110,6 @@
   
   <url>
     <loc>https://jason20091226.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2021-10-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jason20091226.github.io/tags/%E5%AD%A6%E6%9C%AF/</loc>
     <lastmod>2021-10-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -139,14 +139,14 @@
   </url>
   
   <url>
-    <loc>https://jason20091226.github.io/categories/%E5%A8%B1%E4%B9%90/</loc>
+    <loc>https://jason20091226.github.io/categories/OJ/</loc>
     <lastmod>2021-10-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jason20091226.github.io/categories/Windows-11/</loc>
+    <loc>https://jason20091226.github.io/categories/%E5%A8%B1%E4%B9%90/</loc>
     <lastmod>2021-10-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -160,7 +160,7 @@
   </url>
   
   <url>
-    <loc>https://jason20091226.github.io/categories/OJ/</loc>
+    <loc>https://jason20091226.github.io/categories/Windows-11/</loc>
     <lastmod>2021-10-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
