@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>做一个坑人小程序</title>
+      <link href="/2021/10/31/%E5%9D%91%E4%BA%BA/"/>
+      <url>/2021/10/31/%E5%9D%91%E4%BA%BA/</url>
+      
+        <content type="html"><![CDATA[<h1 id="做一个坑人小程序"><a href="#做一个坑人小程序" class="headerlink" title="做一个坑人小程序"></a>做一个坑人小程序</h1><h2 id="下载-DEV-C"><a href="#下载-DEV-C" class="headerlink" title="下载 DEV-C++"></a>下载 DEV-C++</h2><p>下载链接：<a href="https://devcpp.gitee.io/">DEV-C++</a><br><img src="https://i.loli.net/2021/10/31/tRmA839TCaHzhJc.png" alt="c++官网"><br>点击“码云(Gitee)” 或直接点<a href="https://gitee.com/devcpp/devcpp/attach_files/846128/download/Dev-Cpp-5.15d.exe">这里</a></p><h2 id="安装DEV-C"><a href="#安装DEV-C" class="headerlink" title="安装DEV-C++"></a>安装DEV-C++</h2><p>打开下载下来的文件<br><img src="https://i.loli.net/2021/10/31/NxSzP7vpFfBqiIY.png" alt="1"><br>点击“确定”<br><img src="https://i.loli.net/2021/10/31/MInfmda9uKDGBb1.png" alt="2"><br>点击“我同意此协议”<br>下一步<br>一路点“确定”<br><img src="https://i.loli.net/2021/10/31/aFrMPvQDRjXTBSY.png" alt="3"><br>安装完成！！<br>打开这个窗口就说明安装成功<br><img src="https://i.loli.net/2021/10/31/hpuejaL3XnEDOq7.png" alt="4"><br>图示：<br><img src="https://i.loli.net/2021/10/31/mcJThVoEHuP8Zrj.png"></p><h2 id="注入灵魂-主题"><a href="#注入灵魂-主题" class="headerlink" title="注入灵魂(主题)"></a><del>注入灵魂</del>(主题)</h2><p>上方菜单栏选择“工具”<br>选择“编辑器选项”<br><img src="https://i.loli.net/2021/10/31/ZYGw16rateSDbJf.png"><br>选择“语法高亮”<br><img src="https://i.loli.net/2021/10/31/ug2zRvWP7y9JQMN.png"><br>拉出预设语法高亮方案<br><img src="https://i.loli.net/2021/10/31/t4pXTMOqAJ8bNWh.png"><br>滚动条滚下去……<br>可以看到“塑型代码”<br>点他<br><img src="https://i.loli.net/2021/10/31/VknlCpbBromM2OI.png"><br>点确定<br>就变成这样：<br><img src="https://i.loli.net/2021/10/31/BJbNYVkewEzWcmh.png"><br><del>这是为了更有感觉</del></p><h2 id="开始写代码-重中之重"><a href="#开始写代码-重中之重" class="headerlink" title="开始写代码 重中之重"></a>开始写代码 <del>重中之重</del></h2><p>代码我直接放上面<br>原理自己琢磨</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="built_in">system</span>(<span class="string">&quot;start abc&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>然后把文件命名为 abc<br>点“编译”(不要直接点运行，<del>会坑死自己</del>)</p><h2 id="后期美化（更逼真）"><a href="#后期美化（更逼真）" class="headerlink" title="后期美化（更逼真）"></a>后期美化（<del>更逼真</del>）</h2><p>首先，我们可以看到编译后的目录里有一个名为<code>abc.exe</code>的文件<br>把它放到其他盘，<br>把源文件<code>abc.cpp</code>删掉<br>右键点击“发送到”<br>点击 桌面快捷方式<br>把后面的“ - 快捷方式”删掉<br><img src="https://i.loli.net/2021/10/31/jXLqJxlpvh2EVrY.png"><br>然后<br>右键属性<br>菜单栏找到“常规”<br>点击更改图标<br><del>一般学校机房都会装个谷歌浏览器</del><br>所以我们选googlechrome浏览器的图标<br>目录一般在C:\Program Files\Google\Chrome\Application 或<br>C:\Program Files (x86)\Google\Chrome\Application<br>就会出现这样：<br><img src="https://i.loli.net/2021/10/31/FgPeda6lrQx2WZI.png"><br>选择<code>Chrome.exe</code><br><img src="https://i.loli.net/2021/10/31/d1qLiPHpAbD3TVx.png"><br>选择一个<br>点确定<br>再点确定<br>图标就改好啦<br>再把名字改一下，<del>完美！！</del>(<del>幸灾乐祸</del>)</p><p><img src="https://i.loli.net/2021/10/31/vUnhdEfw2Vi16kp.png"></p><p><img src="https://i.loli.net/2021/10/31/Ki6oc2FOfT4a1YS.png"></p><p>ByeBye~~</p><p>邮箱：<a href="mailto:&#119;&#112;&#112;&#111;&#112;&#101;&#x77;&#111;&#x7a;&#106;&#x63;&#x40;&#111;&#117;&#116;&#x6c;&#111;&#x6f;&#x6b;&#x2e;&#99;&#111;&#x6d;">&#119;&#112;&#112;&#111;&#112;&#101;&#x77;&#111;&#x7a;&#106;&#x63;&#x40;&#111;&#117;&#116;&#x6c;&#111;&#x6f;&#x6b;&#x2e;&#99;&#111;&#x6d;</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 坑死人 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 坑死人 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>故宫博物院 —— 太和门</title>
       <link href="/2021/10/19/%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2-%E2%80%94%E2%80%94-%E5%A4%AA%E5%92%8C%E9%97%A8/"/>
       <url>/2021/10/19/%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2-%E2%80%94%E2%80%94-%E5%A4%AA%E5%92%8C%E9%97%A8/</url>
@@ -179,7 +204,7 @@
     
     
     <entry>
-      <title></title>
+      <title>有关oj运行机制的一点解释（持续更新。。。）</title>
       <link href="/2021/10/06/OJ/"/>
       <url>/2021/10/06/OJ/</url>
       
